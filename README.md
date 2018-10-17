@@ -1,11 +1,11 @@
-# Electrode-friendly express authentication module
+# Microsoft Active Directory Authentication Module for Express-based node apps
 
 ## Three-Step Setup
 
-1. First install this package in your electrode app
+1. First install this package in your express app
 `yarn add express-ad`
 
-2. Then add the following in your electrode app's `/config` folder:
+2. Then add the following in your express app's `/config` folder:
 
     ```
     {
@@ -35,7 +35,7 @@ const setUpAuth = () => new Promise((resolve, reject) => {
     resolve();
 });
 ```
-and then in the electrodeServer function, add `then(setUpAuth)` right before the setRouteHandler call: 
+and then in the express server function, add `then(setUpAuth)` right before the setRouteHandler call: 
 ```
     .then(setStaticPaths)
     .then(setUpAuth)
