@@ -2,7 +2,7 @@
 
 ## Three-Step Setup
 
-1. First install this package in your electode app
+1. First install this package in your electrode app
 `yarn add express-ad`
 
 2. Then add the following in your electrode app's `/config` folder:
