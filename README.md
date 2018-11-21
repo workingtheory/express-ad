@@ -2,9 +2,11 @@
 
 ## Setup
 
-1. Clone this package and copy the package folder into your express app's root directory.
+1. First install this package in your electrode app
 
-2. Add the following in your express app's `/config` folder. Make sure to require the express-ad module:
+`yarn add @jet.com/express-ad`
+ 
+2. Add the following in your express app's `/config` folder. Make sure to import the express-ad module:
 
     ```
     {
@@ -18,6 +20,7 @@
         }
     }
     ```
+    
 *Note that **host**, **clientID** and **clientSecret** are required properties. See the end of this document for a list of other optional properties and their default values.*
 
 3. In your `/src/server/express-server.js` file, add the following helper method to inject authentication into the express pipeline:
