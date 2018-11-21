@@ -4,8 +4,10 @@
 
 1. First install this package in your electrode app
 
-`yarn add @jet.com/express-ad`
- 
+    ```
+    yarn add @jet.com/express-ad
+    ```
+
 2. Add the following in your express app's `/config` folder. Make sure to import the express-ad module:
 
     ```
