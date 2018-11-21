@@ -1,6 +1,6 @@
 {
-  "name": "express-ad",
-  "version": "3.0.0",
+  "name": "@jet.com/express-ad",
+  "version": "3.0.0-rc.1",
   "description": "Azure AD authentication module for express-based node.js apps",
   "main": "index.js",
   "scripts": {
@@ -17,5 +17,19 @@
     "passport": "^0.3.2",
     "passport-azure-ad": "^3.0.6",
     "request": "^2.83.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jet/express-ad.git"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "azure",
+    "authentication"
+  ],
+  "bugs": {
+    "url": "https://github.com/jet/express-ad/issues"
+  },
+  "homepage": "https://github.com/jet/express-ad#readme"
 }
