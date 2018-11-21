@@ -1,11 +1,10 @@
 # Microsoft Active Directory Authentication Module for Express-based node apps
 
-## Three-Step Setup
+## Setup
 
-1. First install this package in your express app
-`yarn add express-ad`
+1. Clone this package and copy the package folder into your express app's root directory.
 
-2. Then add the following in your express app's `/config` folder:
+2. Add the following in your express app's `/config` folder. Make sure to require the express-ad module:
 
     ```
     {
