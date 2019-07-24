@@ -176,7 +176,7 @@ Default: `true`
 
 ### `cookieEncryptionKeys`
 
-Encrypt/decrypt key and iv. Please manually set your `cookieEncryptionKeys` in setting.js. We recommend that you implement a secure secrets management tool such as [hashicorp](https://https://www.vaultproject.io/) vault instead of hardcoding security values or other secrets in your configuration files.
+Encrypt/decrypt key and iv. Please manually set your `cookieEncryptionKeys` in setting.js. We recommend that you implement a secure secrets management tool such as [hashicorp](https://www.vaultproject.io/) vault instead of hardcoding security values or other secrets in your configuration files.
 
 Default: `[ { key: '', 'iv': '' }]`
 

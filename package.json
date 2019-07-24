@@ -9,14 +9,14 @@
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
-    "body-parser": "^1.17.2",
+    "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
-    "express": "^4.15.3",
+    "express": "^4.17.1",
     "express-session": "^1.15.6",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.12",
     "passport": "^0.3.2",
-    "passport-azure-ad": "^3.0.6",
-    "request": "^2.83.0"
+    "passport-azure-ad": "^4.0.0",
+    "request": "^2.88.0"
   },
   "repository": {
     "type": "git",
